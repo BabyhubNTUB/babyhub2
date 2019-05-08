@@ -8,11 +8,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-div.list-group-itemforum{
-	margin-left:-1em;		
-	width: 103%;
-}
-
 div.message{
 	width: 100%;
 	padding-top: 0px;
@@ -27,8 +22,8 @@ li.a.icon fa-comment{
 }
 /*----------------------------------------------*/
 div.list-group-item{
-	margin:0 2em 0 0;		
-	width: 100%;
+	margin-left:-1em;		
+	width: 103%;
 }
 /*----------------------------------------------*/
 
