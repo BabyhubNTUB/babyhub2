@@ -3259,6 +3259,16 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background:#ffffffc7;
+		/*
+		background-image: url(https://s3-eu-west-1.amazonaws.com/nontiazzardare/wp-content/uploads/2017/11/archivio-italiano-dei-giochi.jpg);
+		opacity:0.6;
+		*/
+		
+		background-image: url(https://bpic.588ku.com/element_origin_min_pic/17/03/11/d18c88c6a2f840f54bd24e93c80d0a0d.jpg);
+		
+		/*
+		background-image: url(https://schoeneszuhause.de/wp-content/uploads/elementor/thumbs/Wand-mit-Streifen-streichen-naanydb8xk0x85g254rhqq0i8s8o3n6rkxxyy02q2w.jpg);
+		*/
 		box-shadow: 0 0 10px 1px #3f3f3f;
 		border-bottom: solid 1px rgba(160, 160, 160, 0.3);
 		height: 4.5em;
