@@ -3263,9 +3263,9 @@ input, select, textarea {
 		background-image: url(https://s3-eu-west-1.amazonaws.com/nontiazzardare/wp-content/uploads/2017/11/archivio-italiano-dei-giochi.jpg);
 		opacity:0.6;
 		*/
-		
+		/*
 		background-image: url(https://bpic.588ku.com/element_origin_min_pic/17/03/11/d18c88c6a2f840f54bd24e93c80d0a0d.jpg);
-		
+		*/
 		/*
 		background-image: url(https://schoeneszuhause.de/wp-content/uploads/elementor/thumbs/Wand-mit-Streifen-streichen-naanydb8xk0x85g254rhqq0i8s8o3n6rkxxyy02q2w.jpg);
 		*/
@@ -3780,6 +3780,13 @@ input, select, textarea {
 			}
 
 		}
+/* sucess */
+	.sucess{
+		text-align: center;
+		font-size: 60px;
+		font-weight: 600;
+		padding:30px;	
+	}
 /* logout */
 	.logout{
 		text-align: center;
