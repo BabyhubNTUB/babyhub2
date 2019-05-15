@@ -3,21 +3,29 @@ var ctx = document.getElementById("myChart").getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'line',
     data: {
-        labels: ["102年", "103年", "104年", "105年", "106年"],
+        labels: ["4/1", "4/15", "5/1", "5/15"],
         datasets: [{
-            label: '新生人口(千人)',
-            data: [183.7, 199.2, 201.5, 196.8, 183.4],
+            label: '身長(公分)',
+            data: [40, 46, 48, 52],
             fill: false,
-            backgroundColor: 'rgba(212, 106, 106, 1)',
-            borderColor: 'rgba(212, 106, 106, 1)'
+            backgroundColor: 'rgba(133, 167, 217, 1)',
+            borderColor: 'rgba(133, 167, 217, 1)'
         }, 
         {
-            label: '20歲人口(千人)',
-            data: [325.1, 321.4, 323.4, 321.4, 322.4],
+            label: '體重(公斤)',
+            data: [3.8, 4.4, 4.9, 5.3],
             fill: false,
-            backgroundColor: 'rgba(128, 21, 21, 1)',			
-            borderColor: 'rgba(128, 21, 21, 1)'
+            backgroundColor: 'rgba(92, 132, 192, 1)',			
+            borderColor: 'rgba(92, 132, 192, 1)'
+        }, 
+        {
+            label: '喝奶量(毫升)',
+            data: [300, 350, 350, 400],
+            fill: false,
+            backgroundColor: 'rgba(61, 104, 167, 1)',			
+            borderColor: 'rgba(61, 104, 167, 1)'
         }]
+        
     },
     options: {
         scales: {
