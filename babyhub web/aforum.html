@@ -64,13 +64,6 @@
 		<!-- Menu -->
 		<section id="menu">
 
-			<!-- Search -->
-			<section>
-				<form class="search" method="get" action="#">
-					<input type="text" name="query" placeholder="Search" />
-				</form>
-			</section>
-
 			<!-- Links -->
 			<section>
 				<ul class="links">
@@ -105,13 +98,13 @@
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="growrecord.html">
 							<h3>成長紀錄</h3>
 							<p>填寫寶寶的身體變化吧！</p>
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="diary.html">
 							<h3>日記</h3>
 							<p>填寫寶寶每日的生活小點滴吧！</p>
 						</a>
@@ -159,7 +152,9 @@
 								<p>試著少量多餐的餵食法，或餵食後抱起寶寶拍背以加強排氣。</p>
 								<footer>
 									<ul class="stats">                                      
-                                            <a href="#" class="icon fa-heart"> 28</a>　　　<a href="#" class="icon fa-comment"> 128</a>							
+											<a href="#" class="icon fa-heart"> 28</a>
+											<a href="#" class="icon fa-comment"> 128</a>
+											<a href="#" class="icon fa-comment"> 128</a>								
                                     </ul>
                                 </footer>                                
                         </article>
@@ -171,19 +166,23 @@
                                         <p><a href="#" class="author"><img src="images/avatar.jpg" alt="">
                                             <span class="mesname">Jane Doe</span></a></p>                                                             
                                         <div class="col-md-12">
-											<form class="form-horizontal" >
+											<form class="form-group" >
 											<div class="form-group">
-											<input type="text" class="form-control" id="comment" placeholder="Enter">
+											<input type="text" class="form-control comment" id="comment" placeholder="Enter">
 											</div>
-											<label class="control-label" for="comment"><h4>新增</h4></label>
-                                        </div>
+											<label class="control-label btnright" for="comment"><h4>新增</h4></label>
+										</div>
+										<!-- <div class="commentFrame"> 
+											<textarea id="commentArea" placeholder="留言...."></textarea>
+											<button id="btnSure">傳送</button>
+										</div> -->
                                     </div>                                
                                     <div class="list-group-item">                                    
                                         <p><a href="#" class="author"><img src="images/avatar.jpg" alt="">
                                             <span class="mesname">Jane Doe</span></a></p>                                                             
                                         	<div class="col-md-12">
 												<p>留言留言留言</p>
-											<label for="comment"><h4>刪除</h4></label>
+											<label for="comment " class="btnright"><h4>刪除</h4></label>
                                     		</div>
                                     </div>  
                                     <div class="list-group-item">                                    
@@ -222,8 +221,8 @@
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
-	<script>tinymce.init({ selector:'textarea' });</script>
+	<!-- <script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
+	<script>tinymce.init({ selector:'textarea' });</script> -->
 	<script src="assets/js/scripts.js"></script>
 
 </body>
