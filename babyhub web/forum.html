@@ -10,10 +10,20 @@
 	<title>Babyhub</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/forum.css" />
 	<link rel="icon" href="images/logo.png" type="image/ico" />
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/css/style.css" rel="stylesheet">
+
+	<!-- gotop按鈕 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+	// 當頁面打開後就顯示
+		$(function() {
+			$('#gotop').show();
+		});
+	</script>
+
 </head>
 
 <body class="is-preload">
@@ -252,16 +262,10 @@
 			</div>
 		</div>
 	</div>
-    <div class="footer">
-        <ul class="icons">
-            <li><a href="https://www.instagram.com/vivian_0124/" class="fa-instagram"><span class="label">Instagram</span></a></li>
-                <li><a href="mailto:jashtinshen0729@gmail.com" class="fa-envelope"><span class="label">Email</span></a></li>
-                <li><a href="https://github.com/tomlinNTUB" class="fa-github-square"><span class="label">github</span></a></li>
-                <li><a href="tel:0983960930" class="fa-phone"><span class="label">github</span></a></li>
-                <li><a href="https://www.facebook.com/profile.php?id=100008400780348" class="fa-facebook"><span class="label">Facebook</span></a></li>
-            </ul>
-            <p class="copyright">2018 Copyright&copy;NTUB tomlin.</p>
-    </div>
+	<!-- gotop按鈕 -->
+	<a href="addforum.html" id="gotop">
+		<i class="fa fa-plus"></i>
+	</a>
 		<!-- Scripts -->
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/browser.min.js"></script>
