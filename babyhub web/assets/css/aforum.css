@@ -8,9 +8,47 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.btnright{
+	float: right !important;;
+}
+input{
+	width:80%;
+}
 div.message{
 	width: 100%;
 	padding-top: 0px;
+}
+/*textarea*/
+.commentFrame{
+	position: relative;
+	top: 250px;
+}
+#commentArea{
+	width: 1150px;
+	height: 50px;
+	resize: none;
+	border: 3px solid gray;
+	position: relative;
+	top: -250px;
+	margin-right: 6px;
+	display: inline;
+}
+   #btnSure{
+	width: 80px;
+	height: 50px;
+	border: none;
+	position: relative;
+	top: -265px;
+	left: 20px;
+	font-size: 24px;
+	padding: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+	display: inline;
+	font-weight: 405;
+
+}
+::-webkit-scrollbar { 
+    display: none; 
 }
 
 span.mesname {
@@ -121,6 +159,7 @@ input[type=text], input[type=password] {
 	border: 1px solid #ccc;
 	box-sizing: border-box;
 	border-radius:5px;
+	/* background-color: blue; */
 }
 
 .logcon label{
@@ -2560,6 +2599,9 @@ input, select, textarea {
 		list-style: disc;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
+	}
+	ul a:nth-child(3){
+		float:right;
 	}
 
 		ul li {
