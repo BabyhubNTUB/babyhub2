@@ -7,6 +7,12 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
+.pagination{
+	float: left;
+	position: relative;
+	top: 10px;
+}
 #gotop {
     position:fixed;
     z-index:90;
@@ -582,7 +588,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
-	}
+		}
 
 		.row > * {
 			box-sizing: border-box;
@@ -2272,6 +2278,14 @@ input, select, textarea {
 		form.search {
 			text-decoration: none;
 			position: relative;
+			/* background-color: yellow; */
+			position: relative;
+			left: 163%;
+		}
+		.pagination{
+			/* position: relative;
+			left: -200px;
+			float: left; */
 		}
 
 			form.search:before {
@@ -2615,21 +2629,13 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		/* margin: 0 0 2em 0;
-		padding-left: 1em; */
-	}
-	ul a:nth-child(2){
-		margin-left: 5%;
+		margin: 0 0 2em 0;
+		padding-left: 1em;
 	}
 	ul a:nth-child(3){
-		font-size: 20px;
 		float:right;
 	}
-	ul a:nth-child(4){
-		font-size: 20px;
-		float: right;
-		margin-right: 2%;
-	}
+
 		ul li {
 			padding-left: 0.5em;
 		}
@@ -3847,7 +3853,43 @@ input, select, textarea {
 		font-weight: 600;
 		padding:30px;	
 	}
-/* pagetag */
+	/* pagetagtop */
+	.pagetagtop{
+		font-size:22px;
+		color:#ffb1e5a1;
+		margin:auto;
+		height: 10%;
+		position: relative;
+		top: -5%;
+		left: -20%;
+		padding-top: 3%;
+		/* background-color: blue; */
+	}
+	.pagetagtop a{
+		text-align: center;
+		width:30px;
+		text-decoration: none;
+		border:0 solid;
+		color:#ffff !important;
+		margin:0 10px;
+		background:#f1848496;
+		border-radius:30%;
+		box-shadow:1px 1px #a8a8a8;
+		
+	}
+	.pagetagtop a:hover{
+		color:#f1848496 !important;
+		background:#ffffff;
+		text-decoration: none;
+	}
+	@media screen and (max-width: 414px){
+		.pagetagtop{
+			font-size:22px;
+			color:#ffb1e5;
+			margin:auto;
+		}
+	}
+	/* pagetag */
 	.pagetag{
 		font-size:22px;
 		color:#ffb1e5a1;
@@ -3877,6 +3919,7 @@ input, select, textarea {
 			margin:10px auto;
 		}
 	}
+
 /* boardtag */
 	.boardtag{
 		list-style-type:none;
