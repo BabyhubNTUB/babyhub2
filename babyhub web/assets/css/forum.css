@@ -8,6 +8,23 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+/*單篇文章底下的喜歡留言編輯刪除按鈕*/
+    ul.stats {
+		list-style: disc;
+	}
+	ul.stats a:nth-child(2){
+		margin-left: 5%;
+	}
+	ul.stats a:nth-child(3){
+		font-size: 20px;
+		float:right;
+	}
+	ul.stats a:nth-child(4){
+		font-size: 20px;
+		float: right;
+		margin-right: 2%;
+	}
 .pagination{
 	float: left;
 	position: relative;
@@ -83,10 +100,10 @@ li.a.icon fa-comment{
 	padding-left: 20px;
 }
 /*----------------------------------------------*/
-div.list-group-item{
+/* div.list-group-item{
 	margin-left:-1em;		
 	width: 103%;
-}
+} */
 /*----------------------------------------------*/
 
 div.footer{
