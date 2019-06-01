@@ -1,4 +1,4 @@
-﻿<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <!--
 	Future Imperfect by HTML5 UP
 	html5up.net | @ajlkn
@@ -133,48 +133,32 @@
 		</section>
 
 		<!-- Main -->
-		<div class="col-md-2"></div>
-        <div class="col-md-8">
-			<!-- Search -->
-			<section>
-				<form class="search" method="get" action="#">
-					<input type="text" name="query" placeholder="Search" />
-				</form>
-			</section>
-            <div class="card">
-                <div class="card-block">
-                    <h5 class="card-title">
-                        日記
-                    </h5>
-                    <p class="card-text">
-                        (今天)
-						<br>
-						<br>
-                        <textarea rows="2" name="diary" cols="15"></textarea>
-                    </p>
-                    <p>
-                        <a class="btn" href="#">新增</a>
-                        <a class="btn" href="#">清除</a>
-                    </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-block">
-                    <h5 class="card-title">
-                        日記
-                    </h5>
-                    <p class="card-text">
-                        2018/8/7
-                        <br> 今天寶寶大便是水水的
-                        <br>
-                    </p>
-                    <p>
-						<a class="btn" href="updatediary.html">編輯</a>
-                        <a class="btn" href="#">刪除</a>
-                    </p>
-                </div>
-            </div>
-        </div>
+		<div class="col-md-3"></div>
+		<div class="col-md-6">
+			<div class="card">
+				<div class="card-block">
+					<h5 class="card-title">
+						成長記錄
+					</h5>
+					<p class="card-text">
+						<br> 日　期：
+						<input name="date" type="datetime-local">
+						<br> 寶　寶：
+						<input name="baby" type="text-inline" value="佑佑">
+						<br> 身　長：
+						<input name="length" type="number">　cm
+						<br> 體　重：
+						<input name="weight" type="number">　kg
+						<br> 喝奶量：
+						<input name="drinkmilk" type="number">　cc
+					</p>
+					<p>
+						<button type="button">更新</button>
+					</p>
+					</div>
+				</div>
+			</div>
+		</div>
 		
 	</div>
 
@@ -186,8 +170,6 @@
 		<script src="assets/js/main.js"></script>
 		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/scripts.js"></script>
-		<script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
-		<script>tinymce.init({ selector:'textarea' });</script>
 
 </body>
 
