@@ -8,7 +8,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-
 div.list-group-itemforum{
 	margin-left:-1em;		
 	width: 103%;
@@ -199,7 +198,7 @@ margin-top: 10%;
 }
 
 .card{
-	
+	margin-bottom: 1%;
 }
 .piclogo{
 	width: 50% ;
@@ -3259,7 +3258,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background:rgba(113, 180, 200, 0.7);
+		background:rgba(113, 180, 200, 0.753);
 		/*
 		background-image: url(https://s3-eu-west-1.amazonaws.com/nontiazzardare/wp-content/uploads/2017/11/archivio-italiano-dei-giochi.jpg);
 		opacity:0.6;
@@ -3346,9 +3345,9 @@ input, select, textarea {
 
 			#header .profile img{
 				width: 3.4em;
-                height: 3.4em;
-                border-radius: 3.4em;
-                margin: 10% 10px auto 10px;
+				height: 3.4em;
+				border-radius: 3.4em;
+				margin: 10% 10px auto 10px;
 			}
 		#header .main {
 			height: inherit;

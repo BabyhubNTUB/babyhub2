@@ -3321,7 +3321,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background:#ffffffc7;
+		background:rgba(113, 180, 200, 0.753);
 		/*
 		background-image: url(https://s3-eu-west-1.amazonaws.com/nontiazzardare/wp-content/uploads/2017/11/archivio-italiano-dei-giochi.jpg);
 		opacity:0.6;
@@ -3404,10 +3404,10 @@ input, select, textarea {
 				}
 
 			#header .profile img{
-				width: 4.4em;
-				height: 4.4em;
-				border:0.1em #fff solid;
+				width: 3.4em;
+				height: 3.4em;
 				border-radius: 3.4em;
+				margin: 10% 10px auto 10px;
 			}
 		#header .main {
 			height: inherit;

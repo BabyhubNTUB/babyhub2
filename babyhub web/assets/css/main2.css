@@ -3797,14 +3797,20 @@ input, select, textarea {
 		font-size: 60px;
 		font-weight: 600;
 		padding:30px;	
-	}
-/* pagetag */
-	.pagetag{
+    }
+	/* pagetagtop */
+	.pagetagtop{
 		font-size:22px;
 		color:#ffb1e5a1;
-		margin:40px auto;
+		margin:auto;
+		height: 10%;
+		position: relative;
+		top: -5%;
+		left: -20%;
+		padding-top: 3%;
+		/* background-color: blue; */
 	}
-	.pagetag a{
+	.pagetagtop a{
 		text-align: center;
 		width:30px;
 		text-decoration: none;
@@ -3815,6 +3821,35 @@ input, select, textarea {
 		border-radius:30%;
 		box-shadow:1px 1px #a8a8a8;
 		
+	}
+	.pagetagtop a:hover{
+		color:#f1848496 !important;
+		background:#ffffff;
+		text-decoration: none;
+	}
+	@media screen and (max-width: 414px){
+		.pagetagtop{
+			font-size:22px;
+			color:#ffb1e5;
+			margin:auto;
+		}
+	}    
+/* pagetag */
+	.pagetag{
+		font-size:22px;
+		color:#ffb1e5a1;
+		margin:40px auto;
+	}
+	.pagetag a{
+        text-align: center;
+        width:30px;
+        text-decoration: none;
+        border:0 solid;
+        /*改*/color:rgb(36, 89, 107) !important;
+        margin:0 10px;
+        /*改*/background:#f1848467;
+        border-radius:30%;
+        /*改*/box-shadow:1px 1px #a8a8a8;     
 	}
 	.pagetag a:hover{
 		color:#f1848496 !important;
@@ -3946,16 +3981,25 @@ input, select, textarea {
 		font-size:20px;
 	}
 	div.vaccineBox a.reach{
-		position: relative;
-		top:-60px;
-		padding:10px;
-		font-weight: 600;
-		font-size:30px;
-		background:#ff000025;
-		border:4px #ff00005e solid;
-		border-radius: 16px;
-		margin:90%;
-	}
+        position: relative;
+        top:-60px !important;
+        /*margin-left: 10px !important;*/
+        margin-right: 10px !important;
+        padding:10px;
+        /*改*/font-weight:400;
+        /*改*/font-size:20px;
+        /*改*/background:#f0bbb2;
+        /*border:4px rgb(113, 180, 200) solid;*/
+        border-radius: 16px;
+        /*改*/margin:93%;
+        /*改*/box-shadow:1px 1px #a8a8a8;    
+        /*改*/color:rgb(36, 89, 107) !important;
+    }
+    .vaccineBox a.reach:hover{
+        color:#f1848496 !important;
+        background:#ffffff ;
+        text-decoration: none;
+    }
 	div.vaccineBox img{
 		position:relative;
 		top:-150px;
