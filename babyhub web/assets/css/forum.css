@@ -2539,16 +2539,16 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #3c3b3b;
-			border-color: #3c3b3b;
+			background: rgba(113, 180, 200, 0.753);;
+			border-color: rgba(113, 180, 200, 0.753);;
 			color: #ffffff;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #e29292;
-			box-shadow: 0 0 0 1px #e29292;
+			border-color: #a8a8a8;
+			box-shadow: 0 0 0 1px #a8a8a8;
 		}
 
 	input[type="radio"] + label:before {
@@ -3935,11 +3935,10 @@ input, select, textarea {
 	@media screen and (max-width: 414px){
 		.pagetag{
 			font-size:22px;
-			color:#ffb1e5;
+			color:#f1848496;
 			margin:10px auto;
 		}
 	}
-
 /* boardtag */
 	.boardtag{
 		list-style-type:none;
@@ -3959,7 +3958,7 @@ input, select, textarea {
 		padding:5px;
 		margin:0 8px;
 		float:left;
-		background:#ffdff4;
+		background:rgba(184, 209, 218, 0.753);
 		box-shadow:1px 1px 4px #dadada;
 		color:#3c3b3b;
 	}
